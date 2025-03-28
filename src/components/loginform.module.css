@@ -1,4 +1,6 @@
-.signin {
+/* loginform.module.css */
+
+.login {
   background-color: black;
   min-height: 100vh;
   display: flex;
@@ -10,6 +12,11 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 40px;
   border-radius: 10px;
+  width: 600px;
+  height: 500px;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: auto;
 }
 .form input {
   width: 100%;
@@ -21,18 +28,20 @@
   font-size: 16px;
 }
 .form button {
-  background-color: #add8e6;
-  color: #000;
-  padding: 15px 30px;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+  justify-self: start;
 }
-.form button:hover {
-  background-color: green;
-  color: white;
+.form .button-container {
+  display: flex;
+  align-items: center;
 }
+
 .form h2 {
   font-size: 28px;
   margin-bottom: 30px;

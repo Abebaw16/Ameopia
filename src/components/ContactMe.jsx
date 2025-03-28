@@ -12,8 +12,6 @@ export default function ContactMe() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log("We received your message. We will respond back soon");
-    console.log(formData);
     setShowSuccess(true);
   }
 

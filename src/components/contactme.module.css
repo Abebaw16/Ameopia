@@ -1,7 +1,7 @@
 /* contactme.module.css */
 
 .contact {
-  background-color: #add8e6;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -50,4 +50,10 @@
 .form button:hover {
   background-color: green;
   color: white;
+}
+.successMessage {
+  background-color: white;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 20px;
 }

@@ -15,13 +15,11 @@ export default function Nav() {
         <div className={styles.navs}>
           <div className={styles.logo}>
             <Link to="/logo">
-              <div className={styles.logo}>
-                <img
-                  className={styles.image}
-                  src="././AmeopiaLogo.svg"
-                  alt="Logo Unavailable"
-                />
-              </div>
+              <img
+                className={styles.image}
+                src="././AmeopiaLogo.svg"
+                alt="Logo Unavailable"
+              />
             </Link>
           </div>
           <div className={styles.home}>

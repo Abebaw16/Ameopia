@@ -1,3 +1,87 @@
+/* Home.module.css */
+
 .home {
-  margin: 10px 30px 10px 30px;
+  padding: 20px;
+  font-family: sans-serif; /* Add a default font */
+  color: #333; /* Default text color */
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.heroContent {
+  flex: 1;
+}
+
+.heroImage {
+  flex: 1;
+  text-align: center;
+}
+
+.heroImage img {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.ctaButton {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.skills,
+.projects,
+.aboutMe,
+.contact {
+  margin-bottom: 40px;
+}
+
+.skillsList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill img {
+  max-width: 80px;
+}
+
+.projectList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.contactButton {
+  background-color: blueviolet;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
 }
