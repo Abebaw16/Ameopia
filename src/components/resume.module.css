@@ -1,3 +1,21 @@
+/* resume.module.css (Simplified) */
+
 .resume {
-  margin: 10px 40px 10px 40px;
+  padding: 20px;
+  font-family: sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 10px;
+  background-color: #72a8c9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  color: white;
 }

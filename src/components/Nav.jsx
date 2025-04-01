@@ -17,7 +17,7 @@ export default function Nav() {
             <Link to="/logo">
               <img
                 className={styles.image}
-                src="././AmeopiaLogo.svg"
+                src="././Ameopiaxyz.png"
                 alt="Logo Unavailable"
               />
             </Link>

@@ -1,12 +1,13 @@
 /* signupform.module.css */
 
 .signup {
-  background-color: black;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .form {
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -44,4 +45,22 @@
 }
 .form a {
   text-decoration: none;
+}
+.myBackground {
+  background-image: url("/background_image2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+}
+.footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 10px;
+  background-color: #72a8c9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  color: white;
 }

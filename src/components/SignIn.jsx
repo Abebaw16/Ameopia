@@ -16,12 +16,14 @@ export default function SignIn() {
   };
 
   return (
-    <div>
-      {showSignup ? (
-        <SignupForm onSwitchToLogin={switchToLogin} />
-      ) : (
-        <LoginForm onSwitchToSignup={switchToSignup} />
-      )}
+    <div className={styles.myBackground}>
+      <div>
+        {showSignup ? (
+          <SignupForm onSwitchToLogin={switchToLogin} />
+        ) : (
+          <LoginForm onSwitchToSignup={switchToSignup} />
+        )}
+      </div>
     </div>
   );
 }

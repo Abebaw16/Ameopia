@@ -1,87 +1,100 @@
-/* Home.module.css */
-
-.home {
+.homeContainer {
   padding: 20px;
-  font-family: sans-serif; /* Add a default font */
-  color: #333; /* Default text color */
+  font-family: sans-serif;
+  line-height: 1.6;
 }
 
 .hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
-
-.heroContent {
-  flex: 1;
-}
-
-.heroImage {
-  flex: 1;
+  background: linear-gradient(135deg, #e0f7fa, #c2e0f9);
   text-align: center;
+  padding: 150px 20px;
+  margin-bottom: 40px;
+  color: #333;
 }
 
-.heroImage img {
-  max-width: 300px;
-  border-radius: 50%;
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 
-.heroButtons {
-  display: flex;
-  gap: 10px;
-  margin-top: 20px;
+.hero p {
+  font-size: 1.2em;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.ctaButton {
-  background-color: blueviolet;
-  color: white;
-  padding: 10px 20px;
-  border: none;
+.futureTech,
+.potentialPartners,
+.callToAction {
+  text-align: center;
+  margin-top: 60px;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+.hero,
+.futureTech,
+.potentialPartners,
+.callToAction {
   border-radius: 5px;
-  text-decoration: none;
 }
 
-.skills,
-.projects,
-.aboutMe,
-.contact {
+.futureTech h2,
+.potentialPartners h2,
+.callToAction h2 {
+  font-size: 2.2em;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #333;
+}
+
+.futureTech p,
+.potentialPartners p,
+.callToAction p {
+  font-size: 1.1em;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
   margin-bottom: 40px;
-}
-
-.skillsList {
-  display: flex;
-  justify-content: space-around;
-}
-
-.skill {
-  text-align: center;
-}
-
-.skill img {
-  max-width: 80px;
-}
-
-.projectList {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.project img {
-  max-width: 100%;
-}
-
-.projectLinks {
-  display: flex;
-  gap: 10px;
 }
 
 .contactButton {
-  background-color: blueviolet;
+  display: inline-block;
+  background-color: #4caf50;
   color: white;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px;
+  padding: 14px 30px;
   text-decoration: none;
+  border-radius: 8px;
+  margin-top: 30px;
+  font-size: 1.1em;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.contactButton:hover {
+  background-color: #45a049;
+}
+.futureTech h2::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.contactButton:hover {
+  background-color: #45a049;
+}
+.footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 10px;
+  background-color: #72a8c9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  color: white;
 }
